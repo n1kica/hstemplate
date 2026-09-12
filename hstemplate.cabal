@@ -1,0 +1,35 @@
+cabal-version: 3.14
+name: hstemplate
+version: 0.1.0.0
+synopsis: Minimal Haskell project template
+description: A minimal Haskell project template.
+category: Development
+license: MIT
+license-file: LICENSE
+author: nikica
+maintainer: kooh.kooh2@gmail.com
+
+executable hstemplate
+    ghc-options: 
+      -Wall
+      -Wno-name-shadowing
+      -Wno-type-defaults
+    main-is: Main.hs
+    build-depends: 
+      base ^>=4.21.0.0
+    hs-source-dirs: app
+    default-language: GHC2024
+    default-extensions: 
+      DuplicateRecordFields,
+      NoFieldSelectors,
+      OverloadedRecordDot,
+      OverloadedStrings,
+      LambdaCase,
+      MultiWayIf,
+      DerivingVia,
+      NamedFieldPuns,
+      TypeApplications,
+
+source-repository head
+    type: git
+    location: https://github.com/n1kica/hstemplate
