@@ -8,7 +8,7 @@ license: MIT
 license-file: LICENSE
 author: nikica
 maintainer: kooh.kooh2@gmail.com
-extra-doc-files: README.md
+extra-doc-files: README.md CHANGELOG.md
 
 executable hstemplate
     ghc-options: 
