@@ -15,6 +15,8 @@ executable hstemplate
       -Wall
       -Wno-name-shadowing
       -Wno-type-defaults
+      -threaded
+      -rtsopts
     main-is: Main.hs
     build-depends:
       base ^>=4.21.0.0,
