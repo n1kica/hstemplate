@@ -1,6 +1,6 @@
-# Haskell Template
+# Haskell Raylib Template
 
-Minimal Haskell project template.
+Minimal Haskell Raylib project template.
 
 ```sh
 cabal run

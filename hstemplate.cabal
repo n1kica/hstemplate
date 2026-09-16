@@ -1,8 +1,8 @@
 cabal-version: 3.14
 name: hstemplate
 version: 0.1.0.0
-synopsis: Minimal Haskell project template
-description: A minimal Haskell project template.
+synopsis: Minimal Haskell Raylib project template
+description: A minimal Haskell Raylib project template.
 category: Development
 license: MIT
 license-file: LICENSE
@@ -16,8 +16,9 @@ executable hstemplate
       -Wno-name-shadowing
       -Wno-type-defaults
     main-is: Main.hs
-    build-depends: 
-      base ^>=4.21.0.0
+    build-depends:
+      base ^>=4.21.0.0,
+      raylib-hs
     hs-source-dirs: app
     default-language: GHC2024
     default-extensions: 
