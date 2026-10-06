@@ -28,11 +28,8 @@ executable hstemplate
       NoFieldSelectors,
       OverloadedRecordDot,
       OverloadedStrings,
-      LambdaCase,
       MultiWayIf,
       DerivingVia,
-      NamedFieldPuns,
-      TypeApplications,
 
 source-repository head
     type: git
