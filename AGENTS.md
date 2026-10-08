@@ -13,5 +13,7 @@ Use these compiler options as project defaults:
 
 - `-Wno-name-shadowing`
 - `-Wno-type-defaults`
+- `-threaded`
+- `-rtsopts`
 
 Keep these configured even when unused.
